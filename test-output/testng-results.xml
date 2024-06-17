@@ -1,40 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-15T17:15:21 IST" name="Default suite" finished-at="2024-06-15T20:00:53 IST" duration-ms="9931613">
+  <suite started-at="2024-06-17T15:19:32 IST" name="Default suite" finished-at="2024-06-17T15:19:44 IST" duration-ms="12002">
     <groups>
     </groups>
-    <test started-at="2024-06-15T17:15:21 IST" name="Default test" finished-at="2024-06-15T20:00:53 IST" duration-ms="9931613">
+    <test started-at="2024-06-17T15:19:32 IST" name="Default test" finished-at="2024-06-17T15:19:44 IST" duration-ms="12002">
       <class name="org.output.Login">
-        <test-method signature="login()[pri:1, instance:org.output.Login@74e28667]" started-at="2024-06-15T17:15:21 IST" name="login" finished-at="2024-06-15T17:15:25 IST" duration-ms="4018" status="PASS">
+        <test-method signature="login()[pri:1, instance:org.output.Login@19e4653c]" started-at="2024-06-17T15:19:32 IST" name="login" finished-at="2024-06-17T15:19:36 IST" duration-ms="3592" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="addUserAddress()[pri:2, instance:org.output.Login@74e28667]" started-at="2024-06-15T17:15:25 IST" name="addUserAddress" finished-at="2024-06-15T17:15:27 IST" duration-ms="1463" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addUserAddress -->
-        <test-method signature="updateUserAddress()[pri:3, instance:org.output.Login@74e28667]" started-at="2024-06-15T17:15:27 IST" name="updateUserAddress" finished-at="2024-06-15T17:15:28 IST" duration-ms="1284" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateUserAddress -->
-        <test-method signature="getUserAddress()[pri:4, instance:org.output.Login@74e28667]" started-at="2024-06-15T17:15:28 IST" name="getUserAddress" finished-at="2024-06-15T17:15:30 IST" duration-ms="1610" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getUserAddress -->
-        <test-method signature="deleteAddress()[pri:5, instance:org.output.Login@74e28667]" started-at="2024-06-15T17:15:30 IST" name="deleteAddress" finished-at="2024-06-15T20:00:51 IST" duration-ms="9921577" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteAddress -->
-        <test-method signature="searchProduct()[pri:6, instance:org.output.Login@74e28667]" started-at="2024-06-15T20:00:51 IST" name="searchProduct" finished-at="2024-06-15T20:00:52 IST" duration-ms="1033" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchProduct -->
-        <test-method signature="stateList()[pri:7, instance:org.output.Login@74e28667]" started-at="2024-06-15T20:00:52 IST" name="stateList" finished-at="2024-06-15T20:00:53 IST" duration-ms="560" status="PASS">
+        <test-method signature="stateList()[pri:2, instance:org.output.Login@19e4653c]" started-at="2024-06-17T15:19:36 IST" name="stateList" finished-at="2024-06-17T15:19:37 IST" duration-ms="1160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stateList -->
+        <test-method signature="cityList()[pri:3, instance:org.output.Login@19e4653c]" started-at="2024-06-17T15:19:37 IST" name="cityList" finished-at="2024-06-17T15:19:38 IST" duration-ms="1358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cityList -->
+        <test-method signature="addUserAddress()[pri:4, instance:org.output.Login@19e4653c]" started-at="2024-06-17T15:19:38 IST" name="addUserAddress" finished-at="2024-06-17T15:19:40 IST" duration-ms="1219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserAddress -->
+        <test-method signature="updateUserAddress()[pri:5, instance:org.output.Login@19e4653c]" started-at="2024-06-17T15:19:40 IST" name="updateUserAddress" finished-at="2024-06-17T15:19:41 IST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserAddress -->
+        <test-method signature="getUserAddress()[pri:6, instance:org.output.Login@19e4653c]" started-at="2024-06-17T15:19:41 IST" name="getUserAddress" finished-at="2024-06-17T15:19:42 IST" duration-ms="1287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserAddress -->
+        <test-method signature="deleteAddress()[pri:7, instance:org.output.Login@19e4653c]" started-at="2024-06-17T15:19:42 IST" name="deleteAddress" finished-at="2024-06-17T15:19:43 IST" duration-ms="1107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAddress -->
+        <test-method signature="searchProduct()[pri:8, instance:org.output.Login@19e4653c]" started-at="2024-06-17T15:19:43 IST" name="searchProduct" finished-at="2024-06-17T15:19:44 IST" duration-ms="1094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
       </class> <!-- org.output.Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

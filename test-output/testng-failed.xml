@@ -5,9 +5,7 @@
     <classes>
       <class name="org.output.Login">
         <methods>
-          <include name="deleteAddress"/>
-          <include name="searchProduct"/>
-          <include name="stateList"/>
+          <include name="cityList"/>
         </methods>
       </class> <!-- org.output.Login -->
     </classes>
